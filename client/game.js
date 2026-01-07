@@ -5,7 +5,7 @@ canvas.width = 800;
 canvas.height = 500;
 
 // WE WILL CHANGE THIS AFTER SERVER HOSTING
-const socket = io("https://YOUR-SERVER-URL");
+const socket = io("https://multiplayer-shooter-server-v1.onrender.com");
 
 let me = { x: 200, y: 200, speed: 4 };
 let players = {};
